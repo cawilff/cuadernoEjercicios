@@ -1,0 +1,7 @@
+ <p><b>usuario</b>(<a href=\mailto:usuario@correo.com">usuario@correo.com</a>) wrote on <i>17-5-28</i>;<br> un libro de visitas muy sencillo </p>
+
+  <p><b>entry name</b>(<a href=\mailto:usuario@correo.com">usuario@correo.com</a>) wrote on <i>17-5-28</i>;<br> entry </p>
+
+  <p><b>user</b>(<a href=\mailto:usuario@correo.com">usuario@correo.com</a>) wrote on <i>  </i>;<br> comentario 6  </p>
+
+  <p><b>user</b> (<a href=\mailto:usuario@correo.com">usuario@correo.com</a>) wrote on <i>  </i>;<br> comentario 5 </p>

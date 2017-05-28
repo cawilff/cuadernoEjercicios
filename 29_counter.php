@@ -15,11 +15,21 @@
             //
             $fp=fopen("counter.txt","r+");
             $counter=fgets($fp,7);
+            if($counter!=""){
             echo "<b>$counter</b>";
             $counter++;
             rewind($fp);
-            fclose($fp);
+            fputs($fp,$counter);
             
+            fclose($fp);
+            }
+            else{//Agregué el if por si no hay datos en el archivo txt.
+              $counter=0;
+              rewind($fp);
+              fputs($fp,$counter);
+              fclose($fp);
+              header('Location:29_counter.php');
+            }
             ?>
     </body>
 </html>
