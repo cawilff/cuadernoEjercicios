@@ -1,5 +1,4 @@
-<?php
-setcookie("check",1);
+<?phpsetcookie("check",1);
 if(isset($_POST['submit'])){
     setcookie("vote",1);
 }
@@ -13,7 +12,7 @@ if(isset($_POST['submit'])){
     <body>
         <h1>Encuesta</h1>
         <h3>¿Qué opinas de este curso de PHP?</h3>
-        <form action="<?php echo $SERVER['PHP_SELF'];?>" method="post">
+        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
         <input type="radio" name="reply" value="0">
         Excelente, he aprendido mucho.<br>
         <input type="radio" name="reply" value="1">
