@@ -23,7 +23,7 @@ $domicilio=$_POST['domicilio'];
     <center>
         <h1>Contrato con sus datos personales</h1>
         <p align='center'>
-            En la ciudad de <?php echo"$ciudad";?>, se acuerda entre la Empresa <?php echo"$empresa";?>representada por el Sr. <?php echo"$jefe";?> en su carácter
+            En la ciudad de <?php echo"$ciudad";?>, se acuerda entre la Empresa <?php echo"$empresa ";?>representada por el Sr. <?php echo"$jefe";?> en su carácter
 de Apoderado, con domicilio en la calle <?php echo"$calle";?> y el Sr. <?php echo"$usted";?>, futuro empleado con domicilio en <?php echo"$domicilio";?>,
 celebrar el presente contrato a Plazo Fijo, de acuerdo a la normativa vigente de los articulos 90, 92, 93,
 94, 95 y concordantes de la Ley de Contrato de Trabajo No. 20744.
